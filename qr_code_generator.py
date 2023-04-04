@@ -10,12 +10,12 @@ color_options = ["black", "red", "green", "blue", "purple"]
 
 
 root = tk.Tk()
+
 root.title("QR Code Generator")
+root.geometry("300x400+500+100")
+root.iconbitmap('C:\\Users\\DELL\\Desktop\\py\\qr.ico')
 
-
-screen_width = root.winfo_screenwidth()
-window_width = int(screen_width * 0.5)
-root.geometry(f"{window_width}x300")
+ 
 
 
 img_url_label = tk.Label(root, text="Image URL:")
